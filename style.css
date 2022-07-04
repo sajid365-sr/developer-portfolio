@@ -41,7 +41,18 @@ padding-left: 5%;
     border-radius: 5px;
     cursor: pointer;
 }
-.top-banner{
+.welcome-section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big-section{
+    margin-top: 12%;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.second-img{
+padding-left: 8%;
 }
