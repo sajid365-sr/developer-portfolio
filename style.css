@@ -5,6 +5,35 @@ h1{
     font-size: 50px;
     font-weight: 500;
 }
+h3{
+    font-weight: bold;
+}
 .orange-color{
     color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.half-width p{
+    color: rgb(88, 88, 88);
+}
+.hireMe a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.hireMe{
+    padding: 10px 25px;
+    background-color: rgba(254, 111, 49, 0.858);
+    border: none;
+    border-radius: 5px;
 }
