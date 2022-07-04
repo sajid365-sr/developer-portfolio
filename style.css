@@ -1,12 +1,15 @@
 body{
     font-family: poppins;
+    margin: 0;
+    padding: 0;
 }
 h1{
     font-size: 50px;
     font-weight: 500;
+    line-height: 50px;
 }
 h3{
-    font-weight: bold;
+    font-weight: 500;
 }
 .orange-color{
     color: orange;
@@ -19,7 +22,7 @@ section{
 padding-left: 5%;
 }
 .half-width img{
-    width: 80%;
+    width: 90%;
 }
 .half-width p{
     color: rgb(88, 88, 88);
@@ -27,13 +30,18 @@ padding-left: 5%;
 .hireMe a{
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     
 }
 .hireMe{
     padding: 10px 25px;
-    background-color: rgba(254, 111, 49, 0.858);
+    background-image: linear-gradient(to top right,rgb(255, 191, 0),tomato);
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
